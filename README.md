@@ -82,6 +82,5 @@ _disposable = new CompositeDisposable
 [MIT](https://choosealicense.com/licenses/mit/)
 
 
-![Logo](https://lh3.googleusercontent.com/drive-viewer/AAOQEORGZCwTWwar85BpcNwDDXbkupOTb70puospkNPpewM2v0BMrreE9DV3Tan5osqkY08RX1gTB4BNveMUWZlGxmf1dkvulA=w2048-h2406
-)
+![Logo](https://github.com/dmitry-ivashenko/eventify/blob/main/evetify.png?raw=true)
 
