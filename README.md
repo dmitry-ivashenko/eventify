@@ -35,7 +35,7 @@ For more details, please read [this article](https://hackernoon.com/using-an-enu
 
 ```
 
-- Import the eventify.unitypackage file into your Unity project by selecting "Assets" > "Import Package" > "Custom Package" from the menu.
+- Import the eventify.unitypackage file into your Unity project by choosing Assets > Import Package > Custom Package from the menu.
 
 ## Examples
 
@@ -71,6 +71,7 @@ _disposable.Dispose();
 
 
 Here's how to filter events from the bus based on the parameters passed:
+
 ```cs
 _disposable = new CompositeDisposable
 {
