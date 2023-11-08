@@ -1,7 +1,11 @@
 
 # Enum-Based Event Bus For Unity
 
-Example of implementation Event Bus system for Unity, allowing different parts of your application to communicate with each other through events. The Event Bus is based on Enums, which makes it easy to define and manage events in your code.
+Example of implementation Event Bus system for Unity, allowing different parts of your application to communicate with each other through events. 
+
+The implementation is based on Enums, which makes it easy to define and manage events in your code. 
+
+With this system in place, you can create a more organized and efficient application by decoupling different parts of the code that need to communicate with each other.
 
 For more details, please read [this article](https://hackernoon.com/using-an-enum-based-event-bus-pattern-in-unity) on HackerNoon.
 
