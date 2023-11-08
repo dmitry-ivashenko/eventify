@@ -20,6 +20,7 @@ namespace Eventify.Core.Runtime
         public static string RemoveFirstLines(this string text, int linesCount)
         {
             var lines = Regex.Split(text, "\r\n|\r|\n").Skip(linesCount);
+
             return string.Join(Environment.NewLine, lines.ToArray());
         }
         
@@ -35,9 +36,12 @@ namespace Eventify.Core.Runtime
         
         public static T GetRandom<T>(this IList<T> list)
         {
-            if (list.Count == 0) throw new ArgumentException("list length can't be zero");
-            var randomIndex = UnityEngine.Random.Range(0, list.Count);
-            return list[randomIndex];
+            if (list.Count == 0) 
+            {
+                throw new ArgumentException("list length can't be zero");
+            }
+            
+            return list[UnityEngine.Random.Range(0, list.Count)];
         }
     }
 }
